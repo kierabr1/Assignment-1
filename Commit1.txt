@@ -1,0 +1,9 @@
+# Data declarations
+.data
+
+main: 
+li $v0, 1        #code call to print integer
+
+li $v0, 10       # load code for exit
+                 # system call in $v0
+syscall          # make the system call to exit
