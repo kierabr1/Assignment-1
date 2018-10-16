@@ -1,8 +1,13 @@
-# Data declarations
-.data
+# Text declarations
+.text
 
 main: 
-li $v0, 1        #code call to print integer
+#li $v0, 1       #code call to print integer
+li $v0, 11       #code call to print characters
+la $a0, 75       #Prints character 'K'
+syscall
+
+
 
 li $v0, 10       # load code for exit
                  # system call in $v0
