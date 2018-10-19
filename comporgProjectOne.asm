@@ -5,10 +5,17 @@
       la $a0, 64
       syscall
       
+      addi $a0, $a0, 2  #Prints character 'B'
+      syscall
+      
+      addi $a0, $a0, 48  #Prints character 'r'
+      syscall
+      
+      
       #li $v0, 1     #Code call for integers
       li $v0, 11     #Code call for printing
       
-      addi $a0, $a0, 11     #Prints character 'K'
+      addi $a0, $a0, -39     #Prints character 'K'
       syscall
       
       addi $a0, $a0, 30    # Prints character 'i'
