@@ -11,6 +11,13 @@
       addi $a0, $a0, 48  #Prints character 'r'
       syscall
       
+       addi $a0, $a0, -3    #Prints character 'o'
+      syscall
+      
+      addi $a0, $a0, 8     #Prints character 'w'
+      syscall
+      
+      addi $a0, $a0, -9    #Prints character 'n'
       
       #li $v0, 1     #Code call for integers
       li $v0, 11     #Code call for printing
