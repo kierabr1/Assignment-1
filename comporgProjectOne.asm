@@ -36,7 +36,7 @@
       addi $a0, $a0, 7  #Prints new line
       syscall
       
-      addi $a0, $a0, 2  #Prints character 'B'
+      addi $a0, $a0, 56  #Prints character 'B'
       syscall
       
       addi $a0, $a0, 48  #Prints character 'r'
@@ -51,9 +51,11 @@
       addi $a0, $a0, -9    #Prints character 'n'
       syscall
       
-  
+       addi $a0, $a0, -66   #Prints character ','
+      syscall
       
-      
+      addi $a0, $a0, -24    #Prints character ' '
+      syscall
       
       addi $a0, $a0, -39     #Prints character 'K'
       syscall
