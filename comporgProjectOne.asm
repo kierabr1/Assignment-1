@@ -11,6 +11,13 @@
       syscall
       
       addi $a0, $a0, 2    #Code call for printing integer 2
+      syscall
+      
+      addi $a0, $a0, 6    #Code call for printing integer 8
+      syscall
+      
+      addi $a0, $a0, -5   #Code call for printing integer 3
+      syscall
       
       addi $a0, $a0, 2  #Prints character 'B'
       syscall
