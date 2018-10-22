@@ -26,7 +26,15 @@
       syscall
        
       addi $a0, $a0, -2    #Code call for printing integer 6
+      syscall
       
+      addi $a0, $a0, -3    #Code call for printing integer 3
+      syscall
+      
+      li $v0, 11     #Code call for printing characters
+      
+      addi $a0, $a0, 7  #Prints new line
+      syscall
       
       addi $a0, $a0, 2  #Prints character 'B'
       syscall
@@ -45,7 +53,7 @@
       
   
       
-      li $v0, 11     #Code call for printing
+      
       
       addi $a0, $a0, -39     #Prints character 'K'
       syscall
