@@ -54,10 +54,10 @@
        addi $a0, $a0, -66   #Prints character ','
       syscall
       
-      addi $a0, $a0, -24    #Prints character ' '
+      addi $a0, $a0, -12    #Prints character ' '
       syscall
       
-      addi $a0, $a0, 55        #Prints character 'K'
+      addi $a0, $a0, 43       #Prints character 'K'
       syscall
       
       addi $a0, $a0, 30    # Prints character 'i'
