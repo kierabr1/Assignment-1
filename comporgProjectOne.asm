@@ -19,7 +19,7 @@
       addi $a0, $a0, -5   #Code call for printing integer 3
       syscall
       
-       addi $a0, $a0, 3     #Code call for printing integer 6
+      addi $a0, $a0, 3     #Code call for printing integer 6
       syscall
       
       addi $a0, $a0, 2    #Code call for printing integer 8
@@ -57,7 +57,7 @@
       addi $a0, $a0, -24    #Prints character ' '
       syscall
       
-      addi $a0, $a0, -39     #Prints character 'K'
+      addi $a0, $a0, 55        #Prints character 'K'
       syscall
       
       addi $a0, $a0, 30    # Prints character 'i'
@@ -66,7 +66,7 @@
       addi $a0, $a0, -4   #Prints character 'e'
       syscall
       
-      addi $a0, $a0, 49  #Prints character 'r'
+      addi $a0, $a0, 13  #Prints character 'r'
       syscall
       
       addi $a0, $a0, -17 #Prints character 'a'
